@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+
+<body id="body-bg" class="d-flex  ">
+
+
+    <div class="remot-controal d-flex text-center">
+        <div class="screen" id="screen">
+            <div>Air conditioner </div>
+            <div>Mod : Heat </div>
+            <div>Speed : 0 </div>
+            <div>Heat : 0°C </div>
+
+
+        </div>
+        <div class=" " id="controal">
+
+            <button onclick="toggleFan()" type="button" class=" power ">Power</button>
+            <button onclick="incrementHeat()" type="button" class=" button">Heat +</button>
+            <button onclick="decrementHeat()" type="button" class=" button">Heat -</button>
+            <button onclick="togglemod()" type="button" class=" button">Mod</button>
+            <button onclick="toggleSpeed()" type="button" class=" button">Speed</button>
+
+        </div>
+
+        <div class="justify-content-center align-items-lg-center" id="logo">
+        <img src="./Style/logo.svg" alt="">
+        </div>
+
+    </div>
+
+
+
+    <script src="./Style/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
